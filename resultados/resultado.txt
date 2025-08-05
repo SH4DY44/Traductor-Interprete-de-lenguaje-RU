@@ -1,0 +1,34 @@
+Coddigo Ru
+#  para detectar un numero primo
+num = 11;
+esPrimo = true;
+i = 2;
+
+while (i < num) {
+    if (num % i == 0) {
+        esPrimo = false;
+    }
+    i = i + 1;
+}
+
+if (esPrimo) {
+    imprime num;
+    imprime "es primo";
+} else {
+    imprime num;
+    imprime "no es primo";
+}
+
+Resultados
+Ejecucion exitosa
+
+11
+es primo
+
+
+
+Estado de las variables
+esPrimo = true
+num = 11
+i = 11.0
+
